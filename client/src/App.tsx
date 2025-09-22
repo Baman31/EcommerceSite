@@ -26,6 +26,9 @@ import Returns from "./pages/returns";
 import Shipping from "./pages/shipping";
 import SizeGuide from "./pages/size-guide";
 import Orders from "./pages/orders";
+import Privacy from "./pages/privacy";
+import Terms from "./pages/terms";
+import Cookies from "./pages/cookies";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -50,6 +53,9 @@ function Router() {
       <Route path="/shipping" component={Shipping} />
       <Route path="/size-guide" component={SizeGuide} />
       <Route path="/orders" component={Orders} />
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/terms" component={Terms} />
+      <Route path="/cookies" component={Cookies} />
       <Route component={NotFound} />
     </Switch>
   );
