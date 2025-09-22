@@ -199,34 +199,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="bg-primary text-primary-foreground py-16 sm:py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold mb-4 sm:mb-6" data-testid="newsletter-title">
-            Stay in the Loop
-          </h3>
-          <p className="text-base sm:text-lg lg:text-xl mb-8 sm:mb-10 text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
-            Subscribe to our newsletter for the latest updates and exclusive offers
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-lg mx-auto">
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="flex-1 px-4 sm:px-6 py-3 sm:py-4 rounded-full border-0 focus:outline-none text-foreground text-base sm:text-lg"
-              data-testid="newsletter-email-input"
-            />
-            <Button 
-              className="furniture-btn-secondary bg-accent hover:bg-accent text-accent-foreground px-6 sm:px-8 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium"
-              data-testid="newsletter-subscribe-button"
-            >
-              Subscribe
-            </Button>
-          </div>
-          <p className="text-primary-foreground/70 text-xs sm:text-sm mt-3 sm:mt-4">
-            No spam, unsubscribe anytime. Read our privacy policy.
-          </p>
-        </div>
-      </section>
     </div>
   );
 }
